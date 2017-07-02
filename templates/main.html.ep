@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>Crütech Survey</title>
-    <link rel="stylesheet" href="/css/master.css">
+    <link rel="stylesheet" href="/css/master">
   </head>
   <body>
-    <h1 class="title">Crütech Summer 2017</h1>
+    <h1 class="title">Crütech Winter &#x2744; 2017</h1>
     <h2 class="subtitle"> - The survey</h2>
 
     <form class="" action="submit" method="post">

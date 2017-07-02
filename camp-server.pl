@@ -18,7 +18,7 @@ while (my $node = readdir $survey_dh) {
 
 say 'Loaded ' . scalar(@surveys) . ' surveys.';
 
-get '/css/layout' => {template => 'layout', format => 'css',};
+get '/css/master' => {template => 'css/master', format => 'css',};
 
 get '/survey' => sub {
   my $c = shift;
