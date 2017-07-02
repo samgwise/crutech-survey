@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title><%= $response->{'camper-name'} %></title>
+  </head>
+  <body>
+    <table>
+
+
+    <!-- Opening -->
+    <tr>
+      <td>Name</td>
+      <td><%= $response->{'camper-name'} %></td>
+    </tr>
+
+    <tr>
+      <td>Permission to contact via email</td>
+      <td><%= $response->{'reunion-permission'} %></td>
+    </tr>
+
+    <tr>
+      <td>Discussion group</td>
+      <td><%= $response->{'disco-group-leader'} %></td>
+    </tr>
+
+    <!-- Rankings -->
+    <tr>
+      <td>Whole camp</td>
+      <td><%= $response->{'whole-camp'} %></td>
+    </tr>
+
+    <tr>
+      <td>Favourite thing</td>
+      <td><%= $response->{'whole-camp-favourite-thing'} %></td>
+    </tr>
+
+    <tr>
+      <td>Leaders</td>
+      <td><%= $response->{'leaders-rating'} %></td>
+    </tr>
+
+    <tr>
+      <td>Coment on leaders</td>
+      <td><%= $response->{'leaders-rating-comment'} %></td>
+    </tr>
+
+    <tr>
+      <td>Activities</td>
+      <td><%= $response->{'activities-rating'} %></td>
+    </tr>
+
+    <tr>
+      <td>Comment on activities</td>
+      <td><%= $response->{'activities-rating-comment'} %></td>
+    </tr>
+
+    <tr>
+      <td>Talks</td>
+      <td><%= $response->{'talks-rating'} %></td>
+    </tr>
+
+    <tr>
+      <td>Comment on talks</td>
+      <td><%= $response->{'talks-rating-comment'} %></td>
+    </tr>
+
+    <tr>
+      <td>Songs</td>
+      <td><%= $response->{'songs-rating'} %></td>
+    </tr>
+
+    <tr>
+      <td>Comment on songs</td>
+      <td><%= $response->{'songs-rating-comment'} %></td>
+    </tr>
+
+    <tr>
+      <td>Doorms</td>
+      <td><%= $response->{'cabins-rating'} %></td>
+    </tr>
+
+    <tr>
+      <td>Comment on doorms</td>
+      <td><%= $response->{'cabins-rating-comment'} %></td>
+    </tr>
+
+    <tr>
+      <td>Food</td>
+      <td><%= $response->{'food-rating'} %></td>
+    </tr>
+
+    <tr>
+      <td>Comment on food</td>
+      <td><%= $response->{'food-rating-comment'} %></td>
+    </tr>
+
+    <tr>
+      <td>Summary of camp</td>
+      <td><%= $response->{'summary-sentance'} %></td>
+    </tr>
+
+    <tr>
+      <td>School group attendance</td>
+      <td><%= $response->{'attend-school-group'} %></td>
+    </tr>
+
+    <tr>
+      <td>Youth group attendance</td>
+      <td><%= $response->{'attend-youth-group'} %></td>
+    </tr>
+
+    <tr>
+      <td>Church attendance</td>
+      <td><%= $response->{'attend-church'} %></td>
+    </tr>
+
+    <tr>
+      <td>First Crütech</td>
+      <td><%= $response->{'first-crutech'} %></td>
+    </tr>
+
+    <tr>
+      <td>Did you feel welcome and cared for</td>
+      <td><%= $response->{'welcome'} %></td>
+    </tr>
+
+    <tr>
+      <td>Do you want to come again?</td>
+      <td><%= $response->{'another-crutech'} %></td>
+    </tr>
+
+    <tr>
+      <td>Which would best describe you?</td>
+      <td><%= $response->{'describe-faith'} %></td>
+    </tr>
+
+    <tr>
+      <td>Please give me more info about</td>
+      <td><%= ref($response->{'more-info'}) eq 'ARRAY' ? join(", ", @{$response->{'more-info'}}) : $response->{'more-info'} %></td>
+    </tr>
+
+    <tr>
+      <td>Has camp helped you understand more about Christianity or grow in your faith?</td>
+      <td><%= $response->{'camp-helped-understanding'} %></td>
+    </tr>
+
+    <tr>
+      <td>New ideas for camp</td>
+      <td><%= $response->{'new-ideas-for-camp'} %></td>
+    </tr>
+
+    <tr>
+      <td>Comments about camp</td>
+      <td><%= $response->{'comments-about-camp'} %></td>
+    </tr>
+
+    </table>
+  </body>
+</html>

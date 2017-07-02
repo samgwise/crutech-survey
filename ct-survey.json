@@ -1,0 +1,188 @@
+{
+  "questions": [
+    {
+      "question-text": "What is your name?",
+      "html-title": "camper-name"
+    },
+    {
+      "question-text": "What email address may we use to contact you?",
+      "html-title": "camper-email"
+    },
+    {
+      "question-text": "Do you give permission for Crütech to contact you about reunions and future camps?",
+      "html-title": "reunion-permission"
+    },
+    {
+      "question-text": "What is the name of your school?",
+      "html-title": "school"
+    },
+    {
+      "question-text": "What is your favourite colour?",
+      "html-title": "colour"
+    },
+    {
+      "question-text": "Who lead your discussion group?",
+      "html-title": "disco-group-leader"
+    },
+    {
+      "question-text": "What grade are you in at school this year?",
+      "html-title": "school-year"
+    },
+    {
+      "question-text": "Do you give permission for your comments to be used in CRU Camps promotion and reporting materials?",
+      "html-title": "cru-permission"
+    },
+    {
+      "question-text": "Do you give permission for Crütech to contact you about reunions and future camps?",
+      "html-title": "reunion-permission"
+    },
+    {
+      "question-text": "Whole Camp",
+      "html-title": "whole-camp"
+    },
+    {
+      "question-text": "Favourite thing?",
+      "html-title": "whole-camp-favourite-thing"
+    },
+    {
+      "question-text": "How could Crütech be better?",
+      "html-title": "whole-camp-suggestions"
+    },
+    {
+      "question-text": "Leaders",
+      "html-title": "leaders-rating"
+    },
+    {
+      "question-text": "Do you have any comments?",
+      "html-title": "leaders-rating-comment"
+    },
+    {
+      "question-text": "Activities on site",
+      "html-title": "activities-rating"
+    },
+    {
+      "question-text": "Do you have any comments?",
+      "html-title": "activities-rating-comment"
+    },
+    {
+      "question-text": "Night activities (One shots, Theme night and show night",
+      "html-title": "night-activities-rating"
+    },
+    {
+      "question-text": "Do you have any comments?",
+      "html-title": "night-activities-rating-comment"
+    },
+    {
+      "question-text": "Discussion Groups",
+      "html-title": "discussion-groups-rating"
+    },
+    {
+      "question-text": "Do you have any comments?",
+      "html-title": "discussion-groups-rating-comment"
+    },
+    {
+      "question-text": "Christian talks (Download)",
+      "html-title": "talks-rating"
+    },
+    {
+      "question-text": "Do you have any comments?",
+      "html-title": "talks-rating-comment"
+    },
+    {
+      "question-text": "Songs (During download)",
+      "html-title": "songs-rating"
+    },
+    {
+      "question-text": "Do you have any comments?",
+      "html-title": "songs-rating-comment"
+    },
+    {
+      "question-text": "Doorms",
+      "html-title": "cabins-rating"
+    },
+    {
+      "question-text": "Do you have any comments?",
+      "html-title": "cabins-rating-comment"
+    },
+    {
+      "question-text": "Food",
+      "html-title": "food-rating"
+    },
+    {
+      "question-text": "Do you have any comments?",
+      "html-title": "food-rating-comment"
+    },
+    {
+      "question-text": "How would you summarise Crütech in one sentence?",
+      "html-title": "summary-sentance"
+    },
+    {
+      "question-text": "School Christian group or CRU group?",
+      "html-title": "attend-school-group"
+    },
+    {
+      "question-text": "Youth group?",
+      "html-title": "attend-youth-group"
+    },
+    {
+      "question-text": "Church?",
+      "html-title": "attend-church"
+    },
+    {
+      "question-text": "Do you give permission for my details to be passed onto my school chaplain/Cru teacher/local youth minister.",
+      "html-title": "group-follow-up-permission"
+    },
+    {
+      "question-text": "Is this your first Crütech?",
+      "html-title": "first-crutech"
+    },
+    {
+      "question-text": "Did you make new friends?",
+      "html-title": "new-friends"
+    },
+    {
+      "question-text": "Did you feel welcome and cared for?",
+      "html-title": "welcome"
+    },
+    {
+      "question-text": "Would you like to go on another Crütech?",
+      "html-title": "another-crutech"
+    },
+    {
+      "question-text": "Which would best describe you?",
+      "html-title": "describe-faith"
+    },
+    {
+      "question-text": "Please give me more info about:",
+      "html-title": "more-info"
+    },
+    {
+      "question-text": "Why did you come on camp?",
+      "html-title": "reasons-for-attending"
+    },
+    {
+      "question-text": "I received a brochure. (If so where from: ___ )",
+      "html-title": "reasons-for-attending-brochure"
+    },
+    {
+      "question-text": "Other:",
+      "html-title": "reasons-for-attending-other"
+    },
+    {
+      "question-text": "Has camp helped you understand more about Christianity or grow in your faith?",
+      "html-title": "camp-helped-understanding"
+    },
+    {
+      "question-text": "How?",
+      "html-title": "camp-helped-understanding-extra"
+    },
+    {
+      "question-text": "New ideas for camp?",
+      "html-title": "new-ideas-for-camp"
+    },
+    {
+      "question-text": "Comments about camp?",
+      "html-title": "comments-about-camp"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+.form-block {
+  margin: 25px;
+  padding: 25px;
+  border: 1px;
+  border-style: solid;
+  border-radius: 25px;
+  border-color: black;
+}
+
+.subtitle {
+  font-style: italic;
+  color: gray;
+  text-align: center;
+}
+
+.title {
+  font-family: monospace;
+  text-align: center;
+}
+
+.centered {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.privacy-text {
+  text-align: center;
+  padding: 30px;
+  font-style: italic;
+}
+
+.submit-block {
+  padding: 25px;
+  align-items: center;
+}
+
+.submit-button {
+  font-size: 24;
+  border-radius: 5px;
+}

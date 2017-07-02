@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Crutech</title>
+  </head>
+  <body>
+    % my $i = 0;
+    % foreach my $survey (@$surveys) {
+      <%= link_to '/response/' . $i++ => begin %><%= $survey->{'camper-name'} %><% end %>
+      <br>
+    % }
+  </body>
+</html>

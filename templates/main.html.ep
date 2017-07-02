@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Crütech Survey</title>
+    <link rel="stylesheet" href="/css/master.css">
+  </head>
+  <body>
+    <h1 class="title">Crütech Summer 2017</h1>
+    <h2 class="subtitle"> - The survey</h2>
+
+    <form class="" action="submit" method="post">
+      <div class="form-block">
+
+        What is your name?
+        <input class="required" type="text" name="camper-name" value="">
+        <br />
+
+        What is the name of your school?
+        <input type="text" name="school" value="">
+        <br />
+
+        What is your favourite colour?
+        <input type="text" name="colour" value="">
+        <br />
+
+        Who lead your discussion group?
+        <input type="text" name="disco-group-leader" value="">
+        <br />
+
+        What grade are you in at school this year?
+        <input type="text" name="school-year" value="">
+        <br />
+
+        <input type="checkbox" name="cru-permission" value="yes">
+        Do you give permission for your comments to be used in CRU Camps promotion and reporting materials?
+        <br />
+
+        <p>
+          What email address may we use to contact you?
+          <input type="text" name="camper-email" value="">
+          <br />
+
+          <input type="checkbox" name="reunion-permission" value="yes">
+          Do you give permission for Crütech to contact you about reunions and future camps?
+        </p>
+      </div>
+
+      <div class="form-block">
+        <h3>How would you rank:</h3>
+
+        <p>
+          Whole Camp
+          <input type="radio" name="whole-camp" value="poor">
+          Poor
+          <input type="radio" name="whole-camp" value="ok">
+          OK
+          <input type="radio" name="whole-camp" value="good">
+          Good
+          <input type="radio" name="whole-camp" value="great">
+          Great <br />
+          Favourite thing? <input type="text" name="whole-camp-favourite-thing" value="">
+          <br />
+          How could Crütech be better? <br>
+          <textarea rows="3" cols="75" name="whole-camp-suggestions">
+          </textarea>
+        </p>
+
+        <p>
+          Leaders
+          <input type="radio" name="leaders-rating" value="poor">
+          Poor
+          <input type="radio" name="leaders-rating" value="ok">
+          OK
+          <input type="radio" name="leaders-rating" value="good">
+          Good
+          <input type="radio" name="leaders-rating" value="great">
+          Great <br />
+          Do you have any comments? <br>
+          <textarea rows="3" cols="75" name="leaders-rating-comment">
+          </textarea>
+          <br />
+        </p>
+
+        <p>
+          Activities on site
+          <input type="radio" name="activities-rating" value="poor">
+          Poor
+          <input type="radio" name="activities-rating" value="ok">
+          OK
+          <input type="radio" name="activities-rating" value="good">
+          Good
+          <input type="radio" name="activities-rating" value="great">
+          Great <br />
+          Do you have any comments? <br>
+          <textarea rows="3" cols="75" name="activities-rating-comment">
+          </textarea>
+          <br />
+        </p>
+
+        <p>
+          Night activities (One shots, Theme night and show night)
+          <input type="radio" name="night-activities-rating" value="poor">
+          Poor
+          <input type="radio" name="night-activities-rating" value="ok">
+          OK
+          <input type="radio" name="night-activities-rating" value="good">
+          Good
+          <input type="radio" name="night-activities-rating" value="great">
+          Great <br />
+          Do you have any comments? <br />
+          <textarea rows="3" cols="75" name="night-activities-rating-comment">
+          </textarea>
+          <br />
+        </p>
+
+        <p>
+          Discussion Groups
+          <input type="radio" name="discussion-groups-rating" value="poor">
+          Poor
+          <input type="radio" name="discussion-groups-rating" value="ok">
+          OK
+          <input type="radio" name="discussion-groups-rating" value="good">
+          Good
+          <input type="radio" name="discussion-groups-rating" value="great">
+          Great <br />
+          Do you have any comments? <br>
+          <textarea rows="3" cols="75" name="discussion-groups-rating-comment">
+          </textarea>
+          <br />
+        </p>
+
+        <p>
+          Christian talks (Download)
+          <input type="radio" name="talks-rating" value="poor">
+          Poor
+          <input type="radio" name="talks-rating" value="ok">
+          OK
+          <input type="radio" name="talks-rating" value="good">
+          Good
+          <input type="radio" name="talks-rating" value="great">
+          Great <br />
+          Do you have any comments? <br>
+          <textarea rows="3" cols="75" name="talks-rating-comment">
+          </textarea>
+          <br />
+        </p>
+
+        <p>
+          Songs (During download)
+          <input type="radio" name="songs-rating" value="poor">
+          Poor
+          <input type="radio" name="songs-rating" value="ok">
+          OK
+          <input type="radio" name="songs-rating" value="good">
+          Good
+          <input type="radio" name="songs-rating" value="great">
+          Great <br />
+          Do you have any comments? <br>
+          <textarea rows="3" cols="75" name="songs-rating-comment">
+          </textarea>
+          <br />
+        </p>
+
+        <p>
+          Doorms
+          <input type="radio" name="cabins-rating" value="poor">
+          Poor
+          <input type="radio" name="cabins-rating" value="ok">
+          OK
+          <input type="radio" name="cabins-rating" value="good">
+          Good
+          <input type="radio" name="cabins-rating" value="great">
+          Great <br />
+          Do you have any comments? <br>
+          <textarea rows="3" cols="75" name="cabins-rating-comment">
+          </textarea>
+          <br />
+        </p>
+
+        <p>
+          Food
+          <input type="radio" name="food-rating" value="poor">
+          Poor
+          <input type="radio" name="food-rating" value="ok">
+          OK
+          <input type="radio" name="food-rating" value="good">
+          Good
+          <input type="radio" name="food-rating" value="great">
+          Great <br />
+          Do you have any comments? <br>
+          <textarea rows="3" cols="75" name="food-rating-comment">
+          </textarea>
+          <br />
+        </p>
+
+        <p>
+          How would you summarise Crütech in one sentence?<br />
+          <textarea rows="3" cols="75" name="summary-sentance">
+          </textarea>
+        </p>
+
+      </div>
+
+      <div class="form-block">
+        <h3>I usually go to:</h3>
+
+        <p>
+          School Christian group or CRU group?
+          <input type="radio" name="attend-school-group" value="yes">
+          Yes
+          <input type="radio" name="attend-school-group" value="no">
+          No
+          <input type="radio" name="attend-school-group" value="tell-me-more">
+          I would like to (Tell me more!)
+        </p>
+
+        <p>
+          Youth group?
+          <input type="radio" name="attend-youth-group" value="yes">
+          Yes
+          <input type="radio" name="attend-youth-group" value="no">
+          No
+          <input type="radio" name="attend-youth-group" value="tell-me-more">
+          I would like to (Tell me more!)
+        </p>
+
+        <p>
+          Church?
+          <input type="radio" name="attend-church" value="yes">
+          Yes
+          <input type="radio" name="attend-church" value="no">
+          No
+          <input type="radio" name="attend-church" value="tell-me-more">
+          I would like to (Tell me more!)
+        </p>
+
+        <input type="checkbox" name="group-follow-up-permission" value="yes">
+        Do you give permission for my details to be passed onto my school chaplain/Cru teacher/local youth minister.
+
+      </div>
+
+      <div class="form-block">
+        <h3>Tell us about your Cru camp experience.</h3>
+        <p>
+          Is this your first Cru camp?
+          <input type="radio" name="first-cru-camp" value="yes">
+          Yes
+          <input type="radio" name="first-cru-camp" value="no">
+          No
+        </p>
+
+        <p>
+          Is this your first Crütech?
+          <input type="radio" name="first-crutech" value="yes">
+          Yes
+          <input type="radio" name="first-crutech" value="no">
+          No
+        </p>
+
+        <p>
+          Did you make new friends?
+          <input type="radio" name="new-friends" value="yes">
+          Yes
+          <input type="radio" name="new-friends" value="no">
+          No
+        </p>
+
+        <p>
+          Did you feel welcome and cared for?
+          <input type="radio" name="welcome" value="yes">
+          Yes
+          <input type="radio" name="welcome" value="no">
+          No
+        </p>
+
+        <p>
+          Would you like to go on another CRU camp? (other than Crütech)
+          <input type="radio" name="another-cru-camp" value="yes">
+          Yes
+          <input type="radio" name="another-cru-camp" value="no">
+          No
+        </p>
+
+        <p>
+          Would you like to go on another Crütech?
+          <input type="radio" name="another-crutech" value="yes">
+          Yes
+          <input type="radio" name="another-crutech" value="no">
+          No
+        </p>
+      </div>
+
+      <div class="form-block">
+        <h3>Which would best describe you?</h3><br />
+        <input type="radio" name="describe-faith" value="christian-before">
+        I was a Christian before camp.
+        <br/>
+        <input type="radio" name="describe-faith" value="recommitted-on-camp">
+        I recommitted my life to Christ on camp.
+        <br/>
+        <input type="radio" name="describe-faith" value="became-a-christian">
+        I decided to become a Christian on camp.
+        <br />
+        <input type="radio" name="describe-faith" value="think-about-it-more">
+        I want to think about it more.
+        <br />
+        <input type="radio" name="describe-faith" value="other-beliefs">
+        I have other beliefs.
+        <br />
+        <input type="radio" name="describe-faith" value="not-interested">
+        I am not interested in christianity.
+      </div>
+
+      <div class="form-block">
+        <h3>Please give me more info about:</h3><br/>
+        <input type="checkbox" name="more-info" value="bible-reading">
+        Reading the Bible.
+        <br/>
+        <input type="checkbox" name="more-info" value="christian-growth">
+        Growing as a Christian.
+        <br/>
+        <input type="checkbox" name="more-info" value="leadership-oportunities">
+        Christian leadership opportunities.
+        <br/>
+        <input type="checkbox" name="more-info" value="jesus-and-christianity">
+        Jesus and Christianity.
+      </div>
+
+      <div class="form-block">
+        <h3>Why did you come on camp?</h3>
+        <input type="checkbox" name="reasons-for-attending" value="been-before">
+        Been before and loved it.
+        <br/>
+        <input type="checkbox" name="reasons-for-attending" value="cru-visit-at-school">
+        Someone from Cru visited my school.
+        <br />
+        <input type="checkbox" name="reasons-for-attending" value="attended-cru-school-camp">
+        I went on a Cru school camp.
+        <br />
+        <input type="checkbox" name="reasons-for-attending" value="dvd-looked-good">
+        DVD looked good.
+        <br />
+        <input type="checkbox" name="reasons-for-attending" value="parents-told-me">
+        My parents told me about it.
+        <br />
+        <input type="checkbox" name="reasons-for-attending" value="friend-invite">
+        A friend invited me.
+        <br />
+        <input type="checkbox" name="reasons-for-attending" value="found-via-web">
+        I found it in a web search (Google, Bing, duckduckgo, etc...)
+        <br />
+        <input type="checkbox" name="reasons-for-attending" value="received-email">
+        I received an email.
+        <br />
+        <input type="checkbox" name="reasons-for-attending" value="received-brochure">
+        I received a brochure. (If so where from: <input type="text" name="reasons-for-attending-brochure" value="">)
+        <br />
+        <input type="checkbox" name="reasons-for-attending" value="radio-advertisement">
+        I heard it on the radio.
+        <br />
+        <input type="checkbox" name="reasons-for-attending" value="other">
+        Other:
+        <input type="text" name="reasons-for-attending-other" value="">
+      </div>
+
+      <div class="form-block">
+        <h3>Has camp helped you understand more about Christianity or grow in your faith?</h3>
+        <br/>
+        <input type="radio" name="camp-helped-understanding" value="yes">
+        Yes <br/>
+        <input type="radio" name="camp-helped-understanding" value="no">
+        No <br/>
+        How? <br>
+        <textarea rows="3" cols="75" name="camp-helped-understanding-extra">
+        </textarea>
+      </div>
+
+      <div class="form-block">
+        <h3>Why don't you come on more CRU camps?</h3>
+        <br/>
+        <input type="checkbox" name="reasons-for-not-attending-more-camps" value="money">
+        Not enough money.
+        <br/>
+        <input type="checkbox" name="reasons-for-not-attending-more-camps" value="away-on-holidays">
+        Often away on holidays.
+        <br />
+        <input type="checkbox" name="reasons-for-not-attending-more-camps" value="friends-wont-attend">
+        None of my friends can come with me.
+        <br />
+        <input type="checkbox" name="reasons-for-not-attending-more-camps" value="not-fun-enough">
+        Not enough fun camps or activities.
+        <br/>
+        <input type="checkbox" name="reasons-for-not-attending-more-camps" value="do-not-want-to">
+        I just don't want to.
+        <br />
+        <input type="checkbox" name="reasons-for-not-attending-more-camps" value="other">
+        Other:
+        <input type="text" name="reasons-for-not-attending-more-camps-other" value="">
+      </div>
+
+      <div class="form-block">
+        <h3>New ideas for camp?</h3><br/>
+        <textarea name="new-ideas-for-camp" cols="125" rows="12">
+        </textarea>
+      </div>
+
+      <div class="form-block">
+        <h3>Comments about camp?</h3>
+        <textarea name="comments-about-camp" cols="125" rows="12">
+        </textarea>
+      </div>
+
+      <div class="form-block">
+        <h3>Note to a leader or a director</h3><br />
+        This note is for: <input type="text" name="note-for" value=""><br/>
+        <textarea name="note-content" cols="125" rows="12">
+        </textarea>
+      </div>
+
+      <p class="privacy-text">
+        The information collected on this survey will be used to help us improve our camps and provide you with more information if you want it.
+        It may be also used for marketing and fundraising purposes.
+        If you would prefer not to answer a question, please leave it blank.
+        For more information about how we use, hold and protect your personal data, please view our Notification Statement at www.crusaders.edu.au
+      </p>
+
+      <p class="submit-block">
+        <input class="submit-button" type="submit" name="submit" value="Submit yo' survey">
+      </p>
+
+    </form>
+  </body>
+</html>

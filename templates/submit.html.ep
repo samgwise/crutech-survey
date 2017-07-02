@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Thanks =)</title>
+    <link rel="stylesheet" href="/css/master.css">
+  </head>
+  <body>
+    <div class="centered">
+      <h1 class="title">Thanks!</h1>
+    </div>
+  </body>
+</html>
