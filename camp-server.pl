@@ -3,7 +3,7 @@ use v5.16;
 use strict;
 use warnings;
 use Mojolicious::Lite;
-use Mojo::JSON qw(decode_json encode_json);
+use JSON qw(decode_json encode_json);
 use English;
 use Perlmazing;
 
@@ -11,6 +11,7 @@ my $surveys_dir = "response";
 my $counter = 0;
 
 my @surveys;
+mkdir $surveys_dir unless stat $surveys_dir;
 opendir(my $survey_dh, $surveys_dir);
 while (my $node = readdir $survey_dh) {
   push @surveys, decode_json slurp("$surveys_dir/$node") unless $node =~ m/^\./;
